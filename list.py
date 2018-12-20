@@ -31,7 +31,7 @@ answers=[ 'Washington DC',
 s= sample(questions,4)
 
 num_right= 0
-ai = 0 
+ai = 0 #not artificial intelligence oh, :), answer index
 for i in range(len(s)):
     answer= input(s[i])
 	#get corresponding index 
