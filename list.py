@@ -34,7 +34,9 @@ num_right= 0
 
 for i in range(len(s)):
     answer= input(s[i])
-    if answer.lower()== answer[i]:
+	#get corresponding index 
+	a_i = questions.index(s[i])#chai, no semi colon, useless lang, oh well, what's my own :)
+    if answer.lower()== answers[a_i]:
         print('Correct!!!')
         num_right+=1
     else:
